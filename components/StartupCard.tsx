@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { Button } from "./ui/button";
+console.log('first')
 
 const StartupCard = ({ post }: { post: StartupCardType }) => {
   const {
